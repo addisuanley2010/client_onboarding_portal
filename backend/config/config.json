@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a",
     "database": "addis",
-    "host": "1postgresql://root:yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a@dpg-d1aqi36uk2gs7392a6i0-a.singapore-postgres.render.com/addis",
+    "host": "postgresql://root:yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a@dpg-d1aqi36uk2gs7392a6i0-a.singapore-postgres.render.com/addis",
     "dialect": "postgres"
   },
   "test": {
