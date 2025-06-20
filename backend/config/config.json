@@ -14,10 +14,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "1234",
-    "database": "teamwork",
-    "host": "127.0.0.1",
+    "username": "root",
+    "password": "yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a",
+    "database": "addis",
+    "host": "postgresql://root:yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a@dpg-d1aqi36uk2gs7392a6i0-a.singapore-postgres.render.com/addis",
     "dialect": "postgres"
   }
 }
