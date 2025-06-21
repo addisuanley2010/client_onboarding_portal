@@ -8,17 +8,19 @@
     "port":"50013"
   },
   "test": {
-    "username": "postgres",
-    "password": "1234",
-    "database": "teamwork",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+     "username": "uwbvjf0mb0si7fqaleoh",
+    "password": "UVNS6smSCKlVK3I5GyI3TCGeIyn2Az",
+    "database": "bfkacgnq3cch4xviigql",
+    "host": "bfkacgnq3cch4xviigql-postgresql.services.clever-cloud.com",
+    "dialect": "postgres",
+    "port":"50013"
   },
   "production": {
-    "username": "postgres",
-    "password": "1234",
-    "database": "teamwork",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+      "username": "uwbvjf0mb0si7fqaleoh",
+    "password": "UVNS6smSCKlVK3I5GyI3TCGeIyn2Az",
+    "database": "bfkacgnq3cch4xviigql",
+    "host": "bfkacgnq3cch4xviigql-postgresql.services.clever-cloud.com",
+    "dialect": "postgres",
+    "port":"50013"
   }
 }
