@@ -188,7 +188,7 @@ const ManageUser = () => {
                       }
                       className="border border-gray-300 rounded-md p-1 bg-white focus:outline-none focus:ring focus:ring-blue-300"
                     >
-                      <option value="Pending">Pending</option>
+                      <option value="pending">Pending</option>
                       <option value="In Review">In Review</option>
                       <option value="Approved">Approved</option>
                       <option value="Rejected">Rejected</option>
@@ -283,7 +283,7 @@ const ManageUser = () => {
                         }
                         className="w-full px-4 py-2 text-sm border border-gray-300 rounded-lg shadow-sm appearance-none bg-white hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
                       >
-                        <option value="Pending">Pending</option>
+                        <option value="pending">Pending</option>
                         <option value="In Review">In Review</option>
                         <option value="Approved">Approved</option>
                         <option value="Rejected">Rejected</option>

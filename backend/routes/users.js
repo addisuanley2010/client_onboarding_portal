@@ -1,7 +1,7 @@
 const express = require("express");
 const db = require("../models");
 const router = express.Router();
-const { sendStatusChangeEmail } = require("../config/sendStatusChangeEmail");
+const { sendStatusChangeEmail, sendRegisterEmail } = require("../config/sendStatusChangeEmail");
 const {
   authentication,
   authorization,
@@ -19,7 +19,7 @@ router.post("/", async (req, res) => {
     const password = await hashPassword("12345");
     req.body.password = password;
     const newUser = await db.User.create(req.body);
-    await sendStatusChangeEmail(
+    await sendRegisterEmail(
       newUser.email,
       newUser.status,
       newUser.urltoken,
@@ -371,7 +371,7 @@ router.get("/onboarding/:token", async (req, res) => {
                           <p>We couldn't find the client you're looking for.</p>
                           <p>The requested client does not exist in our records.</p>
                         </div>
-                        <a href="http://localhost:5173/" class="home-link">Return to Homepage</a>
+                        <a href="https://clientonlineportal.netlify.app/" class="home-link">Return to Homepage</a>
                       </div>
                     </body>
                   </html>
