@@ -109,14 +109,14 @@ const Header = ({ message, paths, toggleModal }) => {
                   toggleModal();
                   setIsMenuOpen(false);
                 }}
-                className="text-orange-500 flex items-center hover:bg-orange-50 py-2 px-4 rounded-lg transition-all duration-300 hover:translate-x-2"
+                className="text-orange-500 flex items-center justify-center hover:bg-orange-50 py-2 px-4 rounded-lg transition-all duration-300 hover:translate-x-2"
               >
                 <img
                   src="profile.png"
                   alt="P"
                   className="w-8 h-8 rounded-full border-2 border-orange-500 mr-2 shadow-md"
                 />
-                Profile
+                Profile 
               </button>
             )}
           </div>
