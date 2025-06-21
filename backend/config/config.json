@@ -1,23 +1,24 @@
 {
   "development": {
+    "username": "uwbvjf0mb0si7fqaleoh",
+    "password": "UVNS6smSCKlVK3I5GyI3TCGeIyn2Az",
+    "database": "bfkacgnq3cch4xviigql",
+    "host": "bfkacgnq3cch4xviigql-postgresql.services.clever-cloud.com",
+    "dialect": "postgres",
+    "port":"50013"
+  },
+  "test": {
     "username": "postgres",
     "password": "1234",
     "database": "teamwork",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
-  "test": {
+  "production": {
     "username": "postgres",
-    "password": "yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a",
+    "password": "1234",
     "database": "teamwork",
     "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "production": {
-    "username": "root",
-    "password": "yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a",
-    "database": "addis",
-    "host": "postgresql://root:yyJ1Vu56RvnXv1dnoliZtw9cmNSTS77a@dpg-d1aqi36uk2gs7392a6i0-a.singapore-postgres.render.com/addis",
     "dialect": "postgres"
   }
 }
